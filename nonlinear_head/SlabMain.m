@@ -201,7 +201,7 @@ tic;
 
 % Lateral Load
 % 1mg acting along the positive x direction on left x-z plane.
-lateral_load_mod  = 0.01;
+lateral_load_mod  = 0.1;
 lateral_load = zeros(total_no_nodes*3, 1);
 for ii = slab_side_nodes
 dim_y = (nodal_coordinate(nodal_connect(ii,4),2)-nodal_coordinate(nodal_connect(ii,1),2));
